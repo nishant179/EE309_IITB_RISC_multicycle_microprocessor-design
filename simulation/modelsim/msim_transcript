@@ -1,0 +1,260 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do TopLevel_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/register_b_nishant.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:40 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/register_b_nishant.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity register_b
+# -- Compiling architecture structure of register_b
+# End time: 20:46:40 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/xor_nishant.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:40 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/xor_nishant.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity xor_operation
+# -- Compiling architecture Structure of xor_operation
+# End time: 20:46:40 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/register_a_nishant.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:40 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/register_a_nishant.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity register_a
+# -- Compiling architecture structure of register_a
+# End time: 20:46:40 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Priority_Encoder_nishant.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:40 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Priority_Encoder_nishant.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Priority_Encoder
+# -- Compiling architecture pe_architecture of Priority_Encoder
+# End time: 20:46:40 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Decoder_nishant.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:41 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Decoder_nishant.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Decoder
+# -- Compiling architecture decoder_architecture of Decoder
+# End time: 20:46:41 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Reg_file_mohit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:41 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Reg_file_mohit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Register_file
+# -- Compiling architecture behavioral of Register_file
+# End time: 20:46:41 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/ir_mohit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:41 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/ir_mohit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity instruction_reg
+# -- Compiling architecture struct of instruction_reg
+# End time: 20:46:41 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Datapath/TrailZeroes7.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:41 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Datapath/TrailZeroes7.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PadZero
+# -- Compiling architecture Struct of PadZero
+# End time: 20:46:41 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Datapath/TopLevel.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:41 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Datapath/TopLevel.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TopLevel
+# -- Compiling architecture struct of TopLevel
+# End time: 20:46:41 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Datapath/SE9.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:41 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Datapath/SE9.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nine_bit_pad
+# -- Compiling architecture Struct of nine_bit_pad
+# End time: 20:46:41 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Datapath/SE6.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:41 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Datapath/SE6.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity six_bit_pad
+# -- Compiling architecture Struct of six_bit_pad
+# End time: 20:46:41 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Datapath/mux_4to1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:41 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Datapath/mux_4to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_4to1
+# -- Compiling architecture Behavioral of mux_4to1
+# End time: 20:46:41 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Datapath/mux_2to1_al.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:41 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Datapath/mux_2to1_al.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_4to1_3bit
+# -- Compiling architecture Behavioral of mux_4to1_3bit
+# -- Compiling entity mux_2to1_3bit
+# -- Compiling architecture Behavioral of mux_2to1_3bit
+# End time: 20:46:42 on Apr 16,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Datapath/mux_2to1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:42 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Datapath/mux_2to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_2to1
+# -- Compiling architecture Behavioral of mux_2to1
+# End time: 20:46:42 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Datapath/memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:42 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Datapath/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture struct of memory
+# End time: 20:46:42 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Datapath/fsm.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:42 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Datapath/fsm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity fsm
+# -- Compiling architecture a1 of fsm
+# End time: 20:46:42 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Datapath/Datapath.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:42 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Datapath/Datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Datapath
+# -- Compiling architecture behave of Datapath
+# End time: 20:46:42 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Datapath/alu.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:42 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Datapath/alu.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture ALU_arch of ALU
+# End time: 20:46:42 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {D:/AK/RISC-Microprocessor-master/Datapath/bit_shift.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:46:42 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work D:/AK/RISC-Microprocessor-master/Datapath/bit_shift.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bit_shift
+# -- Compiling architecture Struct of bit_shift
+# End time: 20:46:42 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.alu(alu_arch)
+# vsim work.alu(alu_arch) 
+# Start time: 20:47:19 on Apr 16,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu(alu_arch)
+vsim work.nine_bit_pad(struct)
+# End time: 20:47:45 on Apr 16,2022, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+# vsim work.nine_bit_pad(struct) 
+# Start time: 20:47:45 on Apr 16,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.nine_bit_pad(struct)
+# WARNING: No extended dataflow license exists
+# End time: 20:49:36 on Apr 16,2022, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0

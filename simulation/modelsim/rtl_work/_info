@@ -1,0 +1,859 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/AK/RISC-Microprocessor-master/simulation/modelsim
+Ealu
+Z1 w1649437342
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 17
+R0
+Z5 8D:/AK/RISC-Microprocessor-master/Datapath/alu.vhd
+Z6 FD:/AK/RISC-Microprocessor-master/Datapath/alu.vhd
+l0
+L8 1
+VAJRfC@BZeM@b=XWjZTI>J3
+!s100 eKCDYL33DQ=gAjK>EK^1G3
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1650122202
+!i10b 1
+Z9 !s108 1650122202.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Datapath/alu.vhd|
+Z11 !s107 D:/AK/RISC-Microprocessor-master/Datapath/alu.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aalu_arch
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 AJRfC@BZeM@b=XWjZTI>J3
+!i122 17
+l22
+L18 30
+VM`K3RCd1Z;f;QhD?1f35J0
+!s100 PVOH3^lQHUATM_Q>eHTTN1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ebit_shift
+Z14 w1650104026
+R2
+R3
+R4
+!i122 18
+R0
+Z15 8D:/AK/RISC-Microprocessor-master/Datapath/bit_shift.vhd
+Z16 FD:/AK/RISC-Microprocessor-master/Datapath/bit_shift.vhd
+l0
+L8 1
+VW`_m3AXenBhjL<dooGak23
+!s100 =R0Fml^V5i22bBNSLM77M0
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Datapath/bit_shift.vhd|
+!s107 D:/AK/RISC-Microprocessor-master/Datapath/bit_shift.vhd|
+!i113 1
+R12
+R13
+Astruct
+R2
+R3
+R4
+DEx4 work 9 bit_shift 0 22 W`_m3AXenBhjL<dooGak23
+!i122 18
+l17
+L14 21
+V6Qz8ZXKEAz`MDoW3:YjXE2
+!s100 @A_Kd^@]4n[hoF0Kl5d[33
+R7
+31
+R8
+!i10b 1
+R9
+R17
+Z18 !s107 D:/AK/RISC-Microprocessor-master/Datapath/bit_shift.vhd|
+!i113 1
+R12
+R13
+Edatapath
+Z19 w1650122155
+R3
+R4
+!i122 16
+R0
+Z20 8D:/AK/RISC-Microprocessor-master/Datapath/Datapath.vhd
+Z21 FD:/AK/RISC-Microprocessor-master/Datapath/Datapath.vhd
+l0
+L9 1
+VC3UADX9^hz95V>5kAz=cS3
+!s100 h7EB3T@>E>XjGP8K0@U9`1
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Datapath/Datapath.vhd|
+Z23 !s107 D:/AK/RISC-Microprocessor-master/Datapath/Datapath.vhd|
+!i113 1
+R12
+R13
+Abehave
+R3
+R4
+DEx4 work 8 datapath 0 22 C3UADX9^hz95V>5kAz=cS3
+!i122 16
+l176
+L21 241
+VUjhK95]ciCI7GU:1A9;gO2
+!s100 oB7LPgoeMg6:G80h>T8nY3
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Edecoder
+Z24 w1650119826
+R2
+R3
+R4
+!i122 4
+R0
+Z25 8D:/AK/RISC-Microprocessor-master/Decoder_nishant.vhd
+Z26 FD:/AK/RISC-Microprocessor-master/Decoder_nishant.vhd
+l0
+L5 1
+VAo]M>S83TJAYRHHCWo2Lc0
+!s100 6RF7[1So5:lTVETfdC_m21
+R7
+31
+Z27 !s110 1650122201
+!i10b 1
+Z28 !s108 1650122201.000000
+Z29 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Decoder_nishant.vhd|
+Z30 !s107 D:/AK/RISC-Microprocessor-master/Decoder_nishant.vhd|
+!i113 1
+R12
+R13
+Adecoder_architecture
+R2
+R3
+R4
+DEx4 work 7 decoder 0 22 Ao]M>S83TJAYRHHCWo2Lc0
+!i122 4
+l12
+Z31 L11 26
+VOE;Chf]kD1bf>3Jk3BHKc2
+!s100 @IeHaS_;<7oGJg6l5<8Sf2
+R7
+31
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R12
+R13
+Efsm
+Z32 w1650120941
+Z33 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z34 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R3
+R4
+!i122 15
+R0
+Z35 8D:/AK/RISC-Microprocessor-master/Datapath/fsm.vhd
+Z36 FD:/AK/RISC-Microprocessor-master/Datapath/fsm.vhd
+l0
+L7 1
+Vb0I1@jez936@VSS^1e5W]0
+!s100 bnKBX2cDUaU_b3Hcdc:n=1
+R7
+31
+R8
+!i10b 1
+R9
+Z37 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Datapath/fsm.vhd|
+Z38 !s107 D:/AK/RISC-Microprocessor-master/Datapath/fsm.vhd|
+!i113 1
+R12
+R13
+Aa1
+R33
+R34
+R3
+R4
+DEx4 work 3 fsm 0 22 b0I1@jez936@VSS^1e5W]0
+!i122 15
+l27
+L23 1094
+Va<0df:Z1eeb_GGHGePRen1
+!s100 l=j;]<nVmgKYK[cHF=YcJ2
+R7
+31
+R8
+!i10b 1
+R9
+R37
+R38
+!i113 1
+R12
+R13
+Einstruction_reg
+Z39 w1650119837
+R2
+R3
+R4
+!i122 6
+R0
+Z40 8D:/AK/RISC-Microprocessor-master/ir_mohit.vhd
+Z41 FD:/AK/RISC-Microprocessor-master/ir_mohit.vhd
+l0
+L5 1
+V11>Nl4M`CAl2W;HHH?`bc2
+!s100 RmgS3feO>WIB_63[`W7NE1
+R7
+31
+R27
+!i10b 1
+R28
+Z42 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/ir_mohit.vhd|
+Z43 !s107 D:/AK/RISC-Microprocessor-master/ir_mohit.vhd|
+!i113 1
+R12
+R13
+Astruct
+R2
+R3
+R4
+DEx4 work 15 instruction_reg 0 22 11>Nl4M`CAl2W;HHH?`bc2
+!i122 6
+l13
+L12 12
+VP<S7efXJQiol7T:]QIJaH0
+!s100 R;RF6z<FUYc4BdN=k1z<51
+R7
+31
+R27
+!i10b 1
+R28
+R42
+R43
+!i113 1
+R12
+R13
+Ememory
+R1
+R2
+R3
+R4
+!i122 14
+R0
+Z44 8D:/AK/RISC-Microprocessor-master/Datapath/memory.vhd
+Z45 FD:/AK/RISC-Microprocessor-master/Datapath/memory.vhd
+l0
+L5 1
+VkWTo>H818O5GcaW^TZz7]2
+!s100 e7@iQ8N2mdaiN6_X17:Dz2
+R7
+31
+R8
+!i10b 1
+R9
+Z46 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Datapath/memory.vhd|
+Z47 !s107 D:/AK/RISC-Microprocessor-master/Datapath/memory.vhd|
+!i113 1
+R12
+R13
+Astruct
+R2
+R3
+R4
+DEx4 work 6 memory 0 22 kWTo>H818O5GcaW^TZz7]2
+!i122 14
+l27
+L23 16
+V?SdQd;R]kLhlgXSJbz9Tl1
+!s100 m1S9zRm=9KWE]keTAm5cV0
+R7
+31
+R8
+!i10b 1
+R9
+R46
+R47
+!i113 1
+R12
+R13
+Emux_2to1
+R1
+R3
+R4
+!i122 13
+R0
+Z48 8D:/AK/RISC-Microprocessor-master/Datapath/mux_2to1.vhd
+Z49 FD:/AK/RISC-Microprocessor-master/Datapath/mux_2to1.vhd
+l0
+L4 1
+VoDcCKDgbzYAbOUR[B:cl^2
+!s100 8J[Y?d:z3o^PSM^Ff:?8Y0
+R7
+31
+R8
+!i10b 1
+R9
+Z50 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Datapath/mux_2to1.vhd|
+Z51 !s107 D:/AK/RISC-Microprocessor-master/Datapath/mux_2to1.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+DEx4 work 8 mux_2to1 0 22 oDcCKDgbzYAbOUR[B:cl^2
+!i122 13
+l15
+L13 15
+VTeSJE]8:Tzzc_mQIRPRhG0
+!s100 X1Rg;ERM_9VEL5UoK:Tj=0
+R7
+31
+R8
+!i10b 1
+R9
+R50
+R51
+!i113 1
+R12
+R13
+Emux_2to1_3bit
+R1
+R3
+R4
+!i122 12
+R0
+Z52 8D:/AK/RISC-Microprocessor-master/Datapath/mux_2to1_al.vhd
+Z53 FD:/AK/RISC-Microprocessor-master/Datapath/mux_2to1_al.vhd
+l0
+L34 1
+V8Q@lkZ>Zz[2OEL3HhanLf2
+!s100 ibTYb^V5U>[_fbbJaKZg>0
+R7
+31
+R8
+!i10b 1
+R28
+Z54 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Datapath/mux_2to1_al.vhd|
+Z55 !s107 D:/AK/RISC-Microprocessor-master/Datapath/mux_2to1_al.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+DEx4 work 13 mux_2to1_3bit 0 22 8Q@lkZ>Zz[2OEL3HhanLf2
+!i122 12
+l45
+L43 16
+VI;DSe]NKG6NE]Z7S6e[Th3
+!s100 0AU?N?CFGT=>_V=SZ:zOe3
+R7
+31
+R8
+!i10b 1
+R28
+R54
+R55
+!i113 1
+R12
+R13
+Emux_4to1
+R1
+R3
+R4
+!i122 11
+R0
+Z56 8D:/AK/RISC-Microprocessor-master/Datapath/mux_4to1.vhd
+Z57 FD:/AK/RISC-Microprocessor-master/Datapath/mux_4to1.vhd
+l0
+L4 1
+VZiz9AZ<AKZGZO@P@G0`==3
+!s100 ZnkPGz1DXV;D`@nhL9koQ3
+R7
+31
+R27
+!i10b 1
+R28
+Z58 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Datapath/mux_4to1.vhd|
+Z59 !s107 D:/AK/RISC-Microprocessor-master/Datapath/mux_4to1.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+DEx4 work 8 mux_4to1 0 22 Ziz9AZ<AKZGZO@P@G0`==3
+!i122 11
+l14
+L13 13
+V>m=00g]VZP8@`C9PZPQCo0
+!s100 2OWl[1l7Wn<5gkHO[^gdJ1
+R7
+31
+R27
+!i10b 1
+R28
+R58
+R59
+!i113 1
+R12
+R13
+Emux_4to1_3bit
+R1
+R3
+R4
+!i122 12
+R0
+R52
+R53
+l0
+L4 1
+VPV<e_i<EE;UEHeF6gJ^i?1
+!s100 o0zZ3^7ZM;AoR3f6RjX7L0
+R7
+31
+R8
+!i10b 1
+R28
+R54
+R55
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+DEx4 work 13 mux_4to1_3bit 0 22 PV<e_i<EE;UEHeF6gJ^i?1
+!i122 12
+l15
+L13 18
+V386i7zfGHem9n[2VkzX3?3
+!s100 Boo1161QPiX;K8]S3`16`0
+R7
+31
+R8
+!i10b 1
+R28
+R54
+R55
+!i113 1
+R12
+R13
+Enine_bit_pad
+Z60 w1649937118
+R2
+R3
+R4
+!i122 9
+R0
+Z61 8D:/AK/RISC-Microprocessor-master/Datapath/SE9.vhd
+Z62 FD:/AK/RISC-Microprocessor-master/Datapath/SE9.vhd
+l0
+L8 1
+VIJ?FAI76`27VKlRhzZ1W80
+!s100 MbeSlAO;RGdDKIG13nMT21
+R7
+31
+R27
+!i10b 1
+R28
+Z63 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Datapath/SE9.vhd|
+Z64 !s107 D:/AK/RISC-Microprocessor-master/Datapath/SE9.vhd|
+!i113 1
+R12
+R13
+Astruct
+R2
+R3
+R4
+DEx4 work 12 nine_bit_pad 0 22 IJ?FAI76`27VKlRhzZ1W80
+!i122 9
+l17
+Z65 L14 8
+V<D;eN93SP9QQgZmoN]Z_=2
+!s100 UK^D4R]zl16UPBz=gO>NE2
+R7
+31
+R27
+!i10b 1
+R28
+R63
+R64
+!i113 1
+R12
+R13
+Epadzero
+Z66 w1649931312
+R3
+R4
+!i122 7
+R0
+Z67 8D:/AK/RISC-Microprocessor-master/Datapath/TrailZeroes7.vhd
+Z68 FD:/AK/RISC-Microprocessor-master/Datapath/TrailZeroes7.vhd
+l0
+L7 1
+VmoQDP^3R`mDW5e5I_<gUN1
+!s100 CX_:0;=L:eEzZCAS1QEXE3
+R7
+31
+R27
+!i10b 1
+R28
+Z69 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Datapath/TrailZeroes7.vhd|
+Z70 !s107 D:/AK/RISC-Microprocessor-master/Datapath/TrailZeroes7.vhd|
+!i113 1
+R12
+R13
+Astruct
+R3
+R4
+DEx4 work 7 padzero 0 22 moQDP^3R`mDW5e5I_<gUN1
+!i122 7
+l16
+L13 7
+VBN_j<MMFbiPC7X=9iU4@I3
+!s100 <k[h>eKj29f[G[[]0CaLz0
+R7
+31
+R27
+!i10b 1
+R28
+R69
+R70
+!i113 1
+R12
+R13
+Epriority_encoder
+Z71 w1650119823
+R2
+R3
+R4
+!i122 3
+R0
+Z72 8D:/AK/RISC-Microprocessor-master/Priority_Encoder_nishant.vhd
+Z73 FD:/AK/RISC-Microprocessor-master/Priority_Encoder_nishant.vhd
+l0
+L5 1
+VENPJgl7K_NEgi6NgL:QNl3
+!s100 26of;K`]>KYcZk86VNjD01
+R7
+31
+Z74 !s110 1650122200
+!i10b 1
+Z75 !s108 1650122200.000000
+Z76 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Priority_Encoder_nishant.vhd|
+Z77 !s107 D:/AK/RISC-Microprocessor-master/Priority_Encoder_nishant.vhd|
+!i113 1
+R12
+R13
+Ape_architecture
+R2
+R3
+R4
+DEx4 work 16 priority_encoder 0 22 ENPJgl7K_NEgi6NgL:QNl3
+!i122 3
+l12
+R31
+VQKccH8EdGZ87VE]<GK>OL1
+!s100 6:j5^Ij@4Y2XjLbJh2e>R3
+R7
+31
+R74
+!i10b 1
+R75
+R76
+R77
+!i113 1
+R12
+R13
+Eregister_a
+Z78 w1650119820
+R2
+R3
+R4
+!i122 2
+R0
+Z79 8D:/AK/RISC-Microprocessor-master/register_a_nishant.vhd
+Z80 FD:/AK/RISC-Microprocessor-master/register_a_nishant.vhd
+l0
+L7 1
+VIYLThZPKnHXTg@B3[Cf[>2
+!s100 U2=Xod1I35A9KB5g7dBYd0
+R7
+31
+R74
+!i10b 1
+R75
+Z81 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/register_a_nishant.vhd|
+Z82 !s107 D:/AK/RISC-Microprocessor-master/register_a_nishant.vhd|
+!i113 1
+R12
+R13
+Astructure
+R2
+R3
+R4
+DEx4 work 10 register_a 0 22 IYLThZPKnHXTg@B3[Cf[>2
+!i122 2
+l14
+Z83 L13 12
+VdjQ5:Kk_gFA<=ZjY8YEJ90
+!s100 26K2DiV99X5Uc7f1:bDBI3
+R7
+31
+R74
+!i10b 1
+R75
+R81
+R82
+!i113 1
+R12
+R13
+Eregister_b
+Z84 w1650119818
+R2
+R3
+R4
+!i122 0
+R0
+Z85 8D:/AK/RISC-Microprocessor-master/register_b_nishant.vhd
+Z86 FD:/AK/RISC-Microprocessor-master/register_b_nishant.vhd
+l0
+L6 1
+VS4;ZAD]X>4ER4mHUSCYXF1
+!s100 39cRo2lM@U=_UP`KWT^_B2
+R7
+31
+R74
+!i10b 1
+R75
+Z87 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/register_b_nishant.vhd|
+Z88 !s107 D:/AK/RISC-Microprocessor-master/register_b_nishant.vhd|
+!i113 1
+R12
+R13
+Astructure
+R2
+R3
+R4
+DEx4 work 10 register_b 0 22 S4;ZAD]X>4ER4mHUSCYXF1
+!i122 0
+l14
+R83
+V9>UUdOna:>B:NmDULgS0l1
+!s100 @LlDE91^jJ1MKlZOU7ZbP0
+R7
+31
+R74
+!i10b 1
+R75
+R87
+R88
+!i113 1
+R12
+R13
+Eregister_file
+Z89 w1650119834
+R2
+R3
+R4
+!i122 5
+R0
+Z90 8D:/AK/RISC-Microprocessor-master/Reg_file_mohit.vhd
+Z91 FD:/AK/RISC-Microprocessor-master/Reg_file_mohit.vhd
+l0
+L5 1
+VOQ;dA7g4OTDSFDH[:;NaQ1
+!s100 m1C=FLTZNV3JViaWYT1Ua3
+R7
+31
+R27
+!i10b 1
+R28
+Z92 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Reg_file_mohit.vhd|
+Z93 !s107 D:/AK/RISC-Microprocessor-master/Reg_file_mohit.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 13 register_file 0 22 OQ;dA7g4OTDSFDH[:;NaQ1
+!i122 5
+l25
+L21 24
+V`41Yz>0nd@>Ek5daE;Q;z1
+!s100 R]8niZij=1^ZEXFI:5;An2
+R7
+31
+R27
+!i10b 1
+R28
+R92
+R93
+!i113 1
+R12
+R13
+Esix_bit_pad
+Z94 w1649935182
+R2
+R3
+R4
+!i122 10
+R0
+Z95 8D:/AK/RISC-Microprocessor-master/Datapath/SE6.vhd
+Z96 FD:/AK/RISC-Microprocessor-master/Datapath/SE6.vhd
+l0
+L8 1
+V5hmjO@zS6F1n5P880oY[52
+!s100 8c0K;5c1>J@[;a[8mKGTG0
+R7
+31
+R27
+!i10b 1
+R28
+Z97 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Datapath/SE6.vhd|
+Z98 !s107 D:/AK/RISC-Microprocessor-master/Datapath/SE6.vhd|
+!i113 1
+R12
+R13
+Astruct
+R2
+R3
+R4
+DEx4 work 11 six_bit_pad 0 22 5hmjO@zS6F1n5P880oY[52
+!i122 10
+l17
+R65
+VWXC]PI>UR_V5QY:m4`KAf1
+!s100 24MNIFMQO:MFPlH334lP>2
+R7
+31
+R27
+!i10b 1
+R28
+R97
+R98
+!i113 1
+R12
+R13
+Etoplevel
+Z99 w1650111735
+R3
+R4
+!i122 8
+R0
+Z100 8D:/AK/RISC-Microprocessor-master/Datapath/TopLevel.vhd
+Z101 FD:/AK/RISC-Microprocessor-master/Datapath/TopLevel.vhd
+l0
+L9 1
+V2RL5N7bgYX7ecO<;kiOmB0
+!s100 VSg0N:>MJC9`:9QUG3a@23
+R7
+31
+R27
+!i10b 1
+R28
+Z102 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/Datapath/TopLevel.vhd|
+Z103 !s107 D:/AK/RISC-Microprocessor-master/Datapath/TopLevel.vhd|
+!i113 1
+R12
+R13
+Astruct
+R3
+R4
+DEx4 work 8 toplevel 0 22 2RL5N7bgYX7ecO<;kiOmB0
+!i122 8
+l50
+L13 58
+ViC]@>kW:5f]2:>XHK0Meh2
+!s100 9e9L5R9ec]VFSEV3QJemF3
+R7
+31
+R27
+!i10b 1
+R28
+R102
+R103
+!i113 1
+R12
+R13
+Exor_operation
+Z104 w1650119814
+R2
+R3
+R4
+!i122 1
+R0
+Z105 8D:/AK/RISC-Microprocessor-master/xor_nishant.vhd
+Z106 FD:/AK/RISC-Microprocessor-master/xor_nishant.vhd
+l0
+L8 1
+V;RmBIQXi9_gk_nUaee6JV3
+!s100 G^i7jF::TD?@JhBJ6^I;R1
+R7
+31
+R74
+!i10b 1
+R75
+Z107 !s90 -reportprogress|300|-93|-work|work|D:/AK/RISC-Microprocessor-master/xor_nishant.vhd|
+Z108 !s107 D:/AK/RISC-Microprocessor-master/xor_nishant.vhd|
+!i113 1
+R12
+R13
+Astructure
+R2
+R3
+R4
+DEx4 work 13 xor_operation 0 22 ;RmBIQXi9_gk_nUaee6JV3
+!i122 1
+l15
+L14 4
+VQ]aaRZ301Q5<ig:2^O]JR2
+!s100 ALe>SJ?Hg>H`L3fTj4fj]0
+R7
+31
+R74
+!i10b 1
+R75
+R107
+R108
+!i113 1
+R12
+R13

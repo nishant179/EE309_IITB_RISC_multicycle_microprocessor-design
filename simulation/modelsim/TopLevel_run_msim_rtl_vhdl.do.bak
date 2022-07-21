@@ -1,0 +1,26 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/xor.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/TrailZeroes7.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/TopLevel.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/SE9.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/SE6.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/Reg_file.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/reg_1b.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/reg.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/Priority_Encoder.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/mux_4to1.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/mux_2to1_al.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/mux_2to1.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/memory.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/ir.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/fsm.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/Decoder.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/Datapath.vhd}
+vcom -93 -work work {C:/Users/hp/Downloads/Amit_Kumar/RISC-Microprocessor-master/Datapath/alu.vhd}
+
